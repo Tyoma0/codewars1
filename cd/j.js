@@ -96,3 +96,28 @@
 //   }
 //   return Math.floor(total / marks.length);
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Завершите решение так, чтобы оно перевернуло переданную в него строку.
+
+
+
+// function solution(str){
+//   return str.split('').reverse().join('');  
+// }
