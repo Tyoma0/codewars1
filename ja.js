@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
 // Если дан массив целых чисел в виде строк и чисел, возвращается сумма значений массива, как если бы все они были числами.
 
 // Верните свой ответ в виде числа.
@@ -268,3 +273,38 @@
 //   if (prop in obj) throw new Error()
 //   obj[prop] = value
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+const sheep = [ true,  true,  true,  false,
+    true,  true,  true,  true,
+    true,  false, true,  false,
+    true,  false, false, true,
+    true,  true,  true,  true,
+    false, false, true,  true
+  ];
+  
+  
+  
+  function countSheeps(sheep) {
+    let count= 0;
+    for(let i =0; i<sheep.length; i++){
+      if(sheep[i] ===true ){
+        count ++
+      }
+      
+    }return countSheeps
+  }
+  
+  console.log(count);
+  
