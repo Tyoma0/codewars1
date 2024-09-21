@@ -286,14 +286,7 @@
 
 
 
-const sheep = [ true,  true,  true,  false,
-    true,  true,  true,  true,
-    true,  false, true,  false,
-    true,  false, false, true,
-    true,  true,  true,  true,
-    false, false, true,  true
-  ];
-  
+
   
   
   function countSheeps(sheep) {
@@ -301,10 +294,71 @@ const sheep = [ true,  true,  true,  false,
     for(let i =0; i<sheep.length; i++){
       if(sheep[i] ===true ){
         count ++
-      }
-      
-    }return countSheeps
+               
+      }   
+    }
   }
+  console.log(countSheeps([true,  true,  true,  false,
+    true,  true,  true,  true,
+    true,  false, true,  false,
+    true,  false, false, true,
+    true,  true,  true,  true,
+    false, false, true,  true]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Напишите функцию, которая при получении URL-адреса в виде строки анализирует только доменное имя и возвращает его в виде строки. Например
+
+
+    // function domainName(url){
+    //     url = url.replace("http://", "")
+    //     url = url.replace("https://", "")
+    //     url = url.replace("www.", "")
+        
+    //     return url.split(".")[0]
+    //   }
   
-  console.log(count);
+
+
+
+
+
+
+//     Создайте функцию, принимающую положительное целое число между и (оба включены) в качестве параметра и возвращающую строку, содержащую римское цифровое представление этого целого числа.13999
+
+//     Современные римские цифры записываются путем выражения каждой цифры отдельно, начиная с самой левой цифры и пропуская любую цифру со значением нуля. В ряду не может быть более 3 одинаковых символов.
+    
+//     Римскими цифрами:
+    
+//     1990 визуализируется: = + = + =; в результате .1000M900CM90XCMCMXC
+//     2008 записывается как =, =; или.2000MM8VIIIMMVIII
+//     1666 использует каждый римский символ в порядке убывания: .
+
+// function solution(number){
+//   let rom = {M:1000,CM:900,D:500,CD:400,C:100,XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1},
+//       output = ""
+//   for(let i in rom){
+//     while(number>=rom[i]){
+//       output += i
+//       number -=rom[i]
+//     }
+//   }
+//   return output
+// }
   
