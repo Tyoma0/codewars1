@@ -40,3 +40,30 @@
 //   return smallest
 //  }
 // console.log(findSmallestInt([5,6,4,3,8]) )
+
+
+
+
+
+
+
+
+
+
+
+
+// Я новичок в программировании и теперь хочу получить сумму двух массивов... Собственно сумма всех их элементов. Буду признателен за вашу помощь.
+
+// P.S. Каждый массив включает в себя только целые числа. Вывод — это тоже число.
+
+
+
+
+// function arrayPlusArray(arr1, arr2) {
+//   let suma=0;
+//   for(let i=0;i<arr1.length;i++)
+//     suma+=arr1[i];
+//   for(let i=0;i<arr2.length;i++)
+//     suma+=arr2[i];
+//   return suma;
+// }
