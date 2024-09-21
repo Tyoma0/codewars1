@@ -184,13 +184,87 @@
 
 
 // function combine() {
-//   var obj = {}
+//   let obj = {}
 
-//   for (var i = 0; i < arguments.length; i++) {
-//         for (var key in arguments[i]) {
+//   for (let i = 0; i < arguments.length; i++) {
+//         for (let key in arguments[i]) {
 //           obj[key] = obj[key] ? obj[key] + arguments[i][key]: arguments[i][key]
 //         }
 //   }
 
 //   return obj;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Ваша задача состоит в том, чтобы добавить новое свойство к каждому объекту в массиве. Значение должно быть установлено в . Решение должно работать для массивов любой длины.usersAnswerquestionsusersAnswernull
+
+// For example:
+
+// var questions = [{
+//     question: "What's the currency of the USA?",
+//     choices: ["US dollar", "Ruble", "Horses", "Gold"],
+//     corAnswer: 0
+// }, {
+//     question: "Where was the American Declaration of Independence signed?",
+//     choices: ["Philadelphia", "At the bottom", "Frankie's Pub", "China"],
+//     corAnswer: 0
+// }];
+// После добавления свойства результат должен быть следующим:
+
+// var questions = [{
+//     question: "What's the currency of the USA?",
+//     choices: ["US dollar", "Ruble", "Horses", "Gold"],
+//     corAnswer: 0,
+//     usersAnswer: null
+// }, {
+//     question: "Where was the American Declaration of Independence signed?",
+//     choices: ["Philadelphia", "At the bottom", "Frankie's pub", "China"],
+//     corAnswer: 0,
+//     usersAnswer: null
+// }];
+// Массив уже определен для вас и не совпадает с тем, что в примере.questions
+
+
+// for (i=0; i<questions.length; i++) {
+//   questions[i].usersAnswer = null;
+//   };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Напишите функцию, которая добавляет именованное свойство к объекту. Должна быть возможность установить для свойства новое значение. Если свойство уже существует на объекте, то должна быть выдана ошибка.
+
+
+
+// function addProperty(obj, prop, value) {
+//   if (prop in obj) throw new Error()
+//   obj[prop] = value
 // }
