@@ -121,3 +121,35 @@
 // function solution(str){
 //   return str.split('').reverse().join('');  
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Дадим вам функцию , примем 1 параметр: вот так:animalobj
+
+// {name:"dog",legs:4,color:"white"}
+// и возвращаем строку следующим образом:
+
+// "This white dog has 4 legs."
+// Когда вы закончите работу, нажмите «Запустить тесты», чтобы проверить, правильно ли работает ваш код.
+
+// В конце нажмите «Отправить», чтобы отправить свой код и пройти эту ката.
+
+
+
+// function animal(obj){
+//   let description = `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+//   return description;
+// }
+
+
+
