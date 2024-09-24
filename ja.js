@@ -377,8 +377,3 @@ console.log(sumPos('g',9));
 
 
 
-const month = 2 
-switch (month) {
-  case 12:
-      console.log('Декабрь');
- 
