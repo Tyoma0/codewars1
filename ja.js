@@ -362,3 +362,34 @@
 //   return output
 // }
   
+
+
+
+const sumPos = (a,b)=>{
+  if(typeof a !=='number'|| typeof b !== "number"){
+      return "one of the arguments is not a number"
+  }if (a<= 0 ||b <=0){
+      return "Numbers are not positive"
+  }
+  return a + b
+}
+console.log(sumPos('g',9));
+
+
+
+const month = 2 
+switch (month) {
+  case 12:
+      console.log('Декабрь');
+      
+      break;
+  case 1:
+      console.log("Январь");
+      break;
+      case 2:
+          console.log("Февраль");
+          break;
+  default:
+      console.log('Это не зимний месяц');
+      
+}
