@@ -387,9 +387,4 @@ switch (month) {
       console.log("Январь");
       break;
       case 2:
-          console.log("Февраль");
-          break;
-  default:
-      console.log('Это не зимний месяц');
-      
-}
+  
